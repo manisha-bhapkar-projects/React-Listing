@@ -1,0 +1,43 @@
+body{
+  background-color: darkgray;
+}
+
+.App{
+  background-color: darkslateblue;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 20px;
+ 
+}
+
+#CURD_operation input{
+  background-color: lightcoral;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+}
+#CURD_operation input::placeholder{
+  color: white;
+  opacity: 0.5;
+}
+#CURD_operation input:focus, #CURD_operation button:focus{
+outline: none;
+}
+#CURD_operation button{
+  height: 50px;
+  width: 80px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 0;
+  background-color: darkolivegreen;
+  color: white;
+  
+
+}
+
